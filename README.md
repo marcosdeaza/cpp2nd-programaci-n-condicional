@@ -1,59 +1,90 @@
-Aquí tienes un ejemplo de un `README.md` para tu repositorio de GitHub basado en los ejercicios que realizaste:
+# 📚 Programación Condicional en C++
 
-```markdown
-# Ejercicios Tema 5: Programación con Estructura de Control Condicional
+<div align="center">
 
-Este repositorio contiene los programas realizados como parte de los Ejercicios del Tema 5: Programación con Estructura de Control Condicional, correspondientes a la asignatura de Programación del grado en Ingeniería Informática de la Universidad Europea de Valencia.
+**Tema 5.1 - Estructuras Condicionales**
 
-📅 **Fecha de realización**
+*Marcos de Aza*  
+Universidad Europea
 
-29 de octubre de 2025
+---
 
-📘 **Descripción de los ejercicios**
+</div>
 
-1. **Número Positivo, Negativo o Cero**
-   - Programa que solicita al usuario un número y devuelve por pantalla si es positivo, negativo o cero.
+## 🎯 Sobre este Repositorio
 
-   ```cpp
-   // Código del programa
-   ```
+Colección de ejercicios prácticos que exploran el uso de estructuras condicionales en C++. Cada programa implementa soluciones a problemas cotidianos utilizando `if-else` y `switch-case`.
 
-2. **Día de la Semana**
-   - Programa que pide al usuario un número del 1 al 7 y devuelve el día de la semana correspondiente (1=Lunes, 7=Domingo).
+---
 
-   ```cpp
-   // Código del programa
-   ```
+## 📋 Ejercicios
 
-3. **Verificación de Caracteres**
-   - Programa que solicita un carácter y devuelve si es una letra minúscula, mayúscula o si no está en el alfabeto.
+### 1️⃣ Clasificador de Números
+> Identifica si un número es positivo, negativo o cero
 
-   ```cpp
-   // Código del programa
-   ```
+- **Entrada:** Número entero
+- **Salida:** Clasificación del número
+- **Concepto:** Condicionales `if-else`
 
-4. **Calculadora Simple**
-   - Programa que pide dos números y un carácter. Dependiendo del carácter ('s', 'r', 'm', 'd'), realiza la operación correspondiente (suma, resta, multiplicación, división).
+---
 
-   ```cpp
-   // Código del programa
-   ```
+### 2️⃣ Días de la Semana
+> Convierte números (1-7) en días de la semana
 
-5. **Verificación de Notas para Pasar de Curso**
-   - Programa que solicita tres notas (Matemáticas, Física y Literatura) y determina si el usuario cumple los requisitos necesarios para pasar de curso.
+- **Entrada:** Número del 1 al 7
+- **Salida:** Lunes, Martes, Miércoles...
+- **Concepto:** Estructura `switch-case`
 
-   ```cpp
-   // Código del programa
-   ```
+---
 
-🧑‍💻 **Autor**
+### 3️⃣ Analizador de Caracteres
+> Determina si un carácter es mayúscula, minúscula o no alfabético
 
-Marcos de Aza  
-Universidad Europea de Valencia  
-Grado en Ingeniería Informática
-```
+- **Entrada:** Un carácter
+- **Salida:** Tipo de carácter
+- **Concepto:** Rangos con `if-else`
 
-### Notas sobre el Formato
-- Asegúrate de reemplazar `// Código del programa` con los fragmentos de código correspondientes a cada ejercicio.
-- Puedes agregar más detalles si lo consideras necesario, como instrucciones de compilación o ejemplos de uso.
-- Mantén la estructura simple y clara para facilitar la comprensión y la navegación por el documento.
+---
+
+### 4️⃣ Calculadora Simple
+> Realiza operaciones básicas: suma, resta, multiplicación y división
+
+- **Entrada:** Dos números + operador (s/r/m/d)
+- **Salida:** Resultado de la operación
+- **Concepto:** `switch-case` con validaciones
+- ⚠️ **Extra:** Protección contra división por cero
+
+---
+
+### 5️⃣ Evaluador de Notas
+> Sistema que determina si un estudiante aprueba el curso
+
+**Criterios de aprobación:**
+- ✅ Matemáticas ≥ 50
+- ✅ Física ≥ 55
+- ✅ Literatura ≥ 45
+- ✅ Total ≥ 170
+- ✅ Matemáticas + Física ≥ 120
+
+- **Entrada:** Tres notas (0-100)
+- **Salida:** Aprobado / No aprobado
+- **Concepto:** Condicionales con operadores lógicos
+
+---
+
+## 💡 Conceptos Clave
+
+| Concepto | Descripción |
+|----------|-------------|
+| `if-else` | Decisiones binarias y múltiples |
+| `switch-case` | Selección entre múltiples opciones |
+| Operadores | `&&`, `||`, `<`, `>`, `==` |
+| Validación | Control de errores y casos especiales |
+
+---
+
+<div align="center">
+
+**Universidad Europea** • 2025
+
+</div>
